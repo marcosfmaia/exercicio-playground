@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.content__header {
+    width: 697px;
+    height: 49px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo__title {
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 32px;
+    color: #777777;
+    padding-top: 8px;
+}
+
+.logo__subtitle {
+    color: #AAAAAA;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 11px;
+    padding-top: 13px;
+    margin-left: 2px;
+}
+
+.header__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 44px 25px;
+
+}
+
+.container {
+    width: 697px;
+    background-color: #fff;
+    margin-inline: 44px 45px;
+}
+
+.slider {
+    width: 608px;
+    margin-bottom: 37px;
+    position: relative;
+}
+
+.slider__icon {
+    margin: 0 12px;
+}
+
+.icon__previous {
+    position: absolute;
+    top: 50%;
+}
+
+.icon__previous .icon__image {
+    position: absolute;
+    top: 11px;
+    left: 12px;
+}
+
+.icon__next {
+    position: absolute;
+    top: 50%;
+    left: 92%;
+}
+
+.icon__next .icon__image {
+    position: absolute;
+    top: 11px;
+    left: 15px;
+}
+
+.card {
+    display: flex;
+    gap: 96px;
+    margin-bottom: 45px;
+}
+
+.card__item {
+    width: 256px;
+    height: 252px;
+    background-color: #eee;
+}
+
+.card__image {
+    width: 256px;
+    height: 144px;
+}
+
+.card__info {
+    display: flex;
+    justify-content: space-between;
+    margin: 9px 17px 13px 12px;
+}
+
+.card__price {
+    color: #888888;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.card__situation__new {
+    background-color: #51D275;
+    color: #fff;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 2px 10px 0;
+}
+
+.card__situation__sale {
+    background-color: #DC9730;
+    color: #fff;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 2px 11px 0;
+}
+
+.card__description {
+    color: #555555;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 11px;
+    text-align: justify;
+    padding: 0 13px 12px 12px;
+}
+
+.content__images__title {
+    color: #888888;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.content__image {
+    position: relative;
+    margin-bottom: 13px;
+}
+
+.content__image:last-child {
+    margin-bottom: 57px;
+}
+
+.content__images__one,
+.content__images__two,
+.content__images__three {
+    height: 80px;
+    width: 608px;
+    background-image: url(../images/Rectangle\ 11.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: .6;
+}
+
+.content__images__two {
+    background-image: url(../images/Rectangle\ 12.png);
+}
+
+.content__images__three {
+    background-image: url(../images/Rectangle\ 13.png);
+}
+
+.description__image {
+    color: #fff;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-45%, -50%); 
+}
+
+.container__footer {
+    width: 697px;
+    height: 243px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+}
+
+.footer__maps {
+    padding: 0px 48px;
+}
+
+.footer__contact {
+    margin: 0px 45px 9px 0;
+}
+
+.contact__list {
+    margin-bottom: 9px;
+}
+
+.list__item {
+    color: #FFFFFF;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.social__media__text {
+    color: #FFFFFF;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: justify;
+    margin-bottom: 1.42px;
+    padding: 5px 0;
+}
+
+.icon__social__media {
+    margin-left: 17px;
+}
+
+.icon__social__media:nth-child(2) {
+    margin-left: 0;
+}
