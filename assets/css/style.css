@@ -8,7 +8,7 @@
     list-style: none;
 }
 
-.content__header {
+.content-header {
     width: 697px;
     height: 49px;
     background-color: #FFFFFF;
@@ -147,6 +147,7 @@
 }
 
 .content__images__title {
+    width: 647px;
     color: #888888;
     font-family: 'Ropa Sans', sans-serif;
     font-weight: 400;
